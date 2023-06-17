@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Running Status</title>
+  <script src="/js/js3.js"></script>
+	<link rel="stylesheet" href="/css/runningstatus.css">
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="\html\Ticket Booking.html">HOME</a>
+    <a href="\html\pnr.html" target="_blank">PNR STATUS</a>
+    <a href="\html\runningstatus.html" target="_blank">TRAIN STATUS</a>
+    <a href="\html\refundrules.html" target="_blank">REFUND RULES</a>
+    <a href="\Others\Station_code.pdf" target="_blank">TRAIN CODES</a>
+    <a href="\html\about us.html" target="_blank">ABOUT US</a>
+    </div>
+    <div id="main">
+      <span style="font-size:50px;cursor:pointer;color:black" onclick="openNav()">&#9776; </span>
+    </div>
+    
+<div class="z"><p><strong>Search by train</p></strong>
+<hr style="background-color:dodgerblue">
+<form>
+<label for="runningstatus"><p style=font-family:TimesNewRoman>RUNNING TRAIN STATUS:</p></label>
+    <input type="text" id="runningstatus" name="RUNNING TRAIN STATUS" placeholder="Train.no" required><br>
+    <input type="submit" value="GET RUNNING TRAIN STATUS"></form>
+   
+</div>
+<h4 style="width:50%">or</h4>
+<div class="y">
+<p><strong>Search by station</p></strong>
+<hr style="background-color:dodgerblue">
+<form action=link>
+<label for="runningstatus"><p style=font-family:TimesNewRoman>FROM:</p></label>
+    <input type="text" id="from_station" name="fromstation" placeholder="Station" required>
+<p style=font-family:Times New Roman>TO:</p>
+    <input type="text" id="to_station" name="tostation" placeholder="Station" required><br>
+    <!-- <button onclick="run()">GET RUNNING TRAIN STATUS</button> -->
+    <input type="submit" value="GET RUNNING TRAIN STATUS" onclick="setitem()">
+  </form>
+</div>
+</div>
+
+</body>
+
+</html>

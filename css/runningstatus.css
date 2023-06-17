@@ -1,0 +1,99 @@
+
+    div.sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    div.sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    div.sidenav a:hover {
+      color: green;
+    }
+    
+    div.sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    #main {
+      margin-left: 20px;
+      padding: 15px;
+    }  
+    div.z{border:5px outset light grey;
+        border-radius:8px;
+        width:550px;
+        height:190px;
+        padding:8px;
+         margin-top: 20px;
+      margin-bottom: 00px;
+      margin-right: 300px;
+      margin-left: 400px;
+      background-color:white;
+      text-align:left;}
+    input[type=submit] {
+      width: 100%;
+      background-color:dodgerblue;
+      color: white;
+      padding: 12px 20px;
+      margin: 8px 10px 0px 0px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      size:90%;
+    }
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 00px 0px 00px ;
+      margin-top:-10px;
+      display: inline-block;
+      border: 1px solid blue;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+    h4 {
+                display: flex;
+                flex-direction: row;
+                color:black;
+                margin-left:26%;
+                width:10px;
+                
+            }  
+            h4:before,
+            h4:after {
+                content: "";
+                flex: 1 1;
+                border-bottom: 2px solid black;
+                margin-left:auto}
+    div.y{border:5px outset light grey;
+        border-radius:8px;
+        width:550px;
+        height:270px;
+        padding:8px;
+         margin-top: 30px;
+      margin-bottom: 00px;
+      margin-right: 00px;
+      margin-left: 400px;
+      background-color:white;
+      text-align:left;}
+    body { background-image: url("/img/bg2.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100%;}

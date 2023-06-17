@@ -1,0 +1,19 @@
+div.z{border:5px outset light grey;
+    border-radius:8px;
+    width:800px;
+    height:2500px;
+    padding:35px;
+     margin-top: 00px;
+margin-bottom: 00px;
+margin-right: 00px;
+margin-left: 350px;
+background-color:white;
+text-align:left;}
+table, td, th {
+border: 1px solid;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}

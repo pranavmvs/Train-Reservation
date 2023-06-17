@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TICKET BOOKING</title>
+  <script src="/js/js4.js"></script>
+  <link rel="stylesheet" href="/css/ticketbooking.css">
+ 
+</head>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="\html\Ticket Booking.html">HOME</a>
+  <a href="\html\pnr.html" target="_blank">PNR STATUS</a>
+  <a href="\html\runningstatus.html" target="_blank">TRAIN STATUS</a>
+  <a href="\html\refundrules.html" target="_blank">REFUND RULES</a>
+  <a href="\Others\Station_code.pdf" target="_blank">TRAIN CODES</a>
+  <a href="\html\about us.html" target="_blank">ABOUT US</a>
+  </div>
+  <div id="main">
+    <span style="font-size:40px;cursor:pointer;color:white" onclick="openNav()">&#9776; </span>
+  </div>
+<body>
+<form>
+<div class="box">
+    <input type="text" placeholder="From" id="from" required><br><hr><br>
+    <input type="text" placeholder="To" id="to" required><br><hr><br>
+    <select name="Class">
+        <option value="Select">Class</option>
+        <option value="EC">AC Executive Chair Class(EC)</option>
+        <option value="1AC">AC One Tier(1A)</option>
+        <option value="2AC">AC Two Tier(2A)</option>
+        <option value="3AC">AC Three Tier(3A)</option>
+        <option value="CC">AC Chair Class(CC)</option>
+        <option value="SL">Sleeper Class(SL)</option>
+        <option value="2S">Second Sitting(2S)</option>
+    </select><br><br>
+    <label for="Journey Date">Date Of Joureny</label><br><br>
+    <input type="date"  placeholder="journey Date" id="jd"><br><br><hr><br>
+    <select name="Quota">
+		<option value="Select">Quota</option>
+		<option value="Gen">Genral</option>
+		<option value="Tk">Tatkal</option>
+		<option value="Lad">ladies</option>
+		<option value="Ptk">Premium Tatkal</option>
+	</select><br><br><br>
+	<div class="link">
+	<a href="#search" onclick="setitem()">Search</a> 
+    <a href="\html\Ticket Booking.html">Reset</a>
+    </div>
+</div>
+</form>
+
+</body>
+
+</html>
